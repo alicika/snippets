@@ -1,10 +1,10 @@
 # snippets
 A temporal repo for gui apps
-and my current interest, which is, I am now trying to implement nn model using pytorch.
+and my current interest, which is, nn models using pytorch.
 
 ## prerequirements:
 installer: tkinter <br>
-torch experiments: numpy, torch, torchvision, helper
+torch experiments: numpy, torch, torchvision
 
 ## What you expect to tkinter
 Allow you to make a installation of a package on GUI.
