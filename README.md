@@ -1,12 +1,12 @@
 # snippets
-A temporal repo for gui apps
-and my current interest, which is, nn models using pytorch.
+A temporal repo for temporary files and useful snippets
+and my current interest, which is, models using pytorch.
 
 ## prerequirements:
 installer: tkinter <br>
 torch experiments: numpy, torch, torchvision
 
-## What you expect to tkinter　GUI package installer:
+## What you expect to tkinter GUI package installer:
 Allow you to make a installation of a package on GUI.
 
 Adoption of a package involves a lot of potential mistakes when you do this with your own.
