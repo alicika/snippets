@@ -1,6 +1,6 @@
 # snippets
-A temporal repo for temporary files and useful snippets
-and my current interest, which is, models using pytorch.
+A temporal repo for temporary files and useful snippets.
+just a jotdown in reference to my learning.
 
 ## prerequirements:
 installer: tkinter <br>
