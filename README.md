@@ -14,7 +14,4 @@ This would be helpful as you come to make some mistakes in front of the terminal
 
 ## What I would like to introduce with pytorch app:
 Implement some nn networks and get used to it with learn-by-doing.
-Equip knowledge on transfer learning with pytorch_transfer_learning
-With contribution to [Udacity](https://classroom.udacity.com/courses/ud188/).
-
-あ
+acknowledge what is going on on transfer learning with pytorch_transfer_learning
